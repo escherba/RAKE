@@ -12,11 +12,14 @@ Getting Started
 ------
 To set up virtualenv:
 
+.. code-block:: bash
 
     make env
     . env/bin/activate
 
 To start a REPL shell where you can enter text and see Rake results:
+
+.. code-block:: bash
 
     python -m rake.repl
 
