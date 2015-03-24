@@ -6,10 +6,6 @@ About
 
 A Python implementation of the Rapid Automatic Keyword Extraction (RAKE) algorithm as described in [RAKE2010].
 
-.. [RAKE2010]
-   Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents.
-   In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.
-
 Getting Started
 ------
 To set up virtualenv:
@@ -26,6 +22,14 @@ To start a REPL shell where you can enter text and see Rake results:
     python -m rake.repl
 
 For more information, pass `--verbose` argument to the `rake.repl` script.
+
+Bibliography
+------------
+
+.. [RAKE2010]
+   Rose, S., Engel, D., Cramer, N., & Cowley, W. (2010). Automatic Keyword Extraction from Individual Documents.
+   In M. W. Berry & J. Kogan (Eds.), Text Mining: Theory and Applications: John Wiley & Sons.
+   http://dx.doi.org/10.1002/9780470689646.ch1
 
 License
 -------
